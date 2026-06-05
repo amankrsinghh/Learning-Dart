@@ -11,10 +11,10 @@
 
 void main() {
   // Example of variable declaration
-  int age = 21;              // Integer type
-  double price = 99.99;      // Floating-point number
-  String name = "Aman";      // Text/String
-  bool isStudent = true;     // Boolean (true/false)
+  int age = 21; // Integer type
+  double price = 99.99; // Floating-point number
+  String name = "Aman"; // Text/String
+  bool isStudent = true; // Boolean (true/false)
 
   // Printing variables
   print("Name: $name");
@@ -37,9 +37,27 @@ void main() {
 
 // Example: var vs dynamic
 void example() {
-  var city = "Jaipur";       // Type fixed as String
-  dynamic anything = 123;    // Can change type
+  var city = "Jaipur"; // Type fixed as String
+  dynamic anything = 123; // Can change type
   anything = "Now a String"; // Allowed
   print(city);
   print(anything);
+}
+
+/// String Interpolation 
+
+void stringInterpolation() {
+// can use single or double qoutes for String type
+var firstName = 'Nicola';
+var lastName = "Tesla";
+
+//can embed variables in string with $
+String fullName = "$firstName $lastName";
+
+// concatenate with +
+var name = "Albert " + "Einstein";
+
+
+  String upperCase = '${firstName.toUpperCase()}';
+  print(upperCase); //Print: NICOLA
 }
