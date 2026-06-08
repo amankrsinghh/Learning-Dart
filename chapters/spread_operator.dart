@@ -1,6 +1,7 @@
 void main() {
   List<String> name = ["aman", "rahul", "satya", "padosi"];
   List<String> city = ["patna", "gaya", "chapra", "danapur"];
-  List<String> nameandcity = [...name, ...city];
+  List<String>? product ;
+  List<String> nameandcity = [...name, ...city,...?product];
   print(nameandcity);
 }
