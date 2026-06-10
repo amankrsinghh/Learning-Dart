@@ -10,8 +10,8 @@
 // It contains properties (variables) and methods (functions).
 
 class User {
-  String name;          // property/field
-  int age;              // property/field
+  String name; // property/field
+  int age; // property/field
   bool iseligible = false; // default value
 
   // 🔹 Constructor
